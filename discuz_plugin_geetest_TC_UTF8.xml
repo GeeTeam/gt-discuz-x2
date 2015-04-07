@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2]]></item>
+	<item id="Time"><![CDATA[2014-10-30 12:22]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/bbs_utf8_20/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[極驗驗證碼（geetest驗證碼）]]></item>
+			<item id="identifier"><![CDATA[geetest]]></item>
+			<item id="description"><![CDATA[極驗驗證是全球首家新一代行為式驗證技術服務提供商，為給互聯網世界的人們帶去「更安全、更便捷、更具智慧的驗證」為目標而不斷前行。極驗驗證首度提出「行為式驗證」的全新驗證理論，並構建出「行為沙盒」的驗證框架，利用自主研發的「多重行為判別智能算法」，達到了令傳統驗證技術難以到達的高度，至此開創驗證安全2.0新時代。]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[geetest/]]></item>
+			<item id="copyright"><![CDATA[Geetest Inc.]]></item>
+			<item id="version"><![CDATA[2.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[geetest]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[geetestcloud]]></item>
+					<item id="menu"><![CDATA[極驗雲]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[advance]]></item>
+					<item id="menu"><![CDATA[高級功能]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[feedback]]></item>
+					<item id="menu"><![CDATA[幫助反饋]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[3]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="4">
+					<item id="name"><![CDATA[about]]></item>
+					<item id="menu"><![CDATA[關於極驗]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[5]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[登陸浮動窗驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[logging_float]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 auto auto]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[10]]></item>
+				<item id="title"><![CDATA[發帖頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[newthread]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 0 0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[回帖頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[reply]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 0 0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[12]]></item>
+				<item id="title"><![CDATA[發帖回帖浮動窗驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[newthread_reply_float]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 0 0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[13]]></item>
+				<item id="title"><![CDATA[發帖回帖高級頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[newthread_reply_grade]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 0 0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[註冊頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[register]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 auto auto]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[註冊浮動窗驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[register_float]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 auto auto]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[登陸頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[logging]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 auto auto]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[需要開啟驗證的用戶組:]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[groupid]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[9]]></item>
+					<item id="1"><![CDATA[10]]></item>
+					<item id="2"><![CDATA[11]]></item>
+					<item id="3"><![CDATA[12]]></item>
+					<item id="4"><![CDATA[13]]></item>
+					<item id="5"><![CDATA[14]]></item>
+					<item id="6"><![CDATA[15]]></item>
+					<item id="7"><![CDATA[16]]></item>
+					<item id="8"><![CDATA[17]]></item>
+					<item id="9"><![CDATA[18]]></item>
+					<item id="10"><![CDATA[19]]></item>
+					<item id="11"><![CDATA[1]]></item>
+					<item id="12"><![CDATA[2]]></item>
+					<item id="13"><![CDATA[3]]></item>
+					<item id="14"><![CDATA[4]]></item>
+					<item id="15"><![CDATA[5]]></item>
+					<item id="16"><![CDATA[6]]></item>
+					<item id="17"><![CDATA[7]]></item>
+					<item id="18"><![CDATA[8]]></item>
+				</item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[根據發帖數關閉驗證:]]></item>
+				<item id="description"><![CDATA[發帖數超過此設置的會員將不受驗證碼功能限制，0表示所有會員均受限制]]></item>
+				<item id="variable"><![CDATA[post_num]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[需要開啟驗證的位置:]]></item>
+				<item id="description"><![CDATA[需要驗證的模塊！]]></item>
+				<item id="variable"><![CDATA[mod]]></item>
+				<item id="type"><![CDATA[selects]]></item>
+				<item id="extra"><![CDATA[1 = 註冊模塊
+2 = 登錄模塊
+3 = 發帖模塊
+4 = 回帖模塊
+5 = 編輯帖模塊
+6 = 廣播模塊
+7 = 日誌模塊
+8 = 留言模塊
+9 = 充值模塊]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[1]]></item>
+					<item id="1"><![CDATA[2]]></item>
+					<item id="2"><![CDATA[3]]></item>
+					<item id="3"><![CDATA[4]]></item>
+					<item id="4"><![CDATA[5]]></item>
+					<item id="5"><![CDATA[6]]></item>
+					<item id="6"><![CDATA[7]]></item>
+					<item id="7"><![CDATA[8]]></item>
+					<item id="8"><![CDATA[9]]></item>
+				</item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[是否開啟驗證:]]></item>
+				<item id="description"><![CDATA[是否開啟驗證！]]></item>
+				<item id="variable"><![CDATA[open]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="12">
+				<item id="displayorder"><![CDATA[14]]></item>
+				<item id="title"><![CDATA[廣播頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[follow]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 0 0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="13">
+				<item id="displayorder"><![CDATA[15]]></item>
+				<item id="title"><![CDATA[日誌頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[blog]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 0 0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="14">
+				<item id="displayorder"><![CDATA[16]]></item>
+				<item id="title"><![CDATA[留言/評論頁面驗證位置:]]></item>
+				<item id="description"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				<item id="variable"><![CDATA[comment]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10 10 0 0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="language">
+			<item id="scriptlang">
+                <item id="seccode_invalid"><![CDATA[錯誤：滑動驗證不通過！請再次滑動，通過驗證！]]></item>
+				<item id="seccode_expired"><![CDATA[錯誤：請不要再次提交！滑動驗證已使用過，請刷新之後再使用！]]></item>
+				<item id="invalid_key"><![CDATA[錯誤：驗證公鑰id或者私鑰key無效！]]></item>
+				<item id="key_error"><![CDATA[錯誤：驗證碼公鑰id或者私鑰key錯誤！]]></item>
+				<item id="key_invalid"><![CDATA[驗證不正確！]]></item>
+				<item id="key_default"><![CDATA[極驗驗證geetest（www.geetest.com）！]]></item>
+				<item id="public_keyset_label"><![CDATA[id:]]></item>
+				<item id="private_keyset_label"><![CDATA[key:]]></item>
+				<item id="private_keyset_note"><![CDATA[ ]]></item>
+				
+				<item id="clear_cache"><![CDATA[退出當前賬號]]></item>
+				<item id="change_id"><![CDATA[切換id]]></item>
+
+				
+				
+				<item id="write_config_error"><![CDATA[更新失敗]]></item>
+				<item id="write_config_success"><![CDATA[更新成功]]></item>
+
+
+				<item id="captcha_setting_label"><![CDATA[極驗驗證碼設置（必填）]]></item>
+				<item id="open_captcha_label"><![CDATA[是否開啟驗證]]></item>
+				<item id="open_captcha_note"><![CDATA[是否開啟驗證！]]></item>
+				<item id="open_captcha_mobile"><![CDATA[是否開啟手機驗證]]></item>
+				<item id="open_mobile"><![CDATA[開啟手機驗證的前提是要用插件模板覆蓋discuz原有的手機模板，詳情請點擊<a target="_blank" href="http://www.geetest.com/install/#discuz">這裡！</a>]]></item>
+
+
+
+				<item id="warning_label"><![CDATA[溫馨提示]]></item>
+				<item id="warning_note"><![CDATA[極驗採用的「行為式驗證」安全技術是驗證安全2.0技術，較之傳統「驗證碼」在安全性上提高了44.78倍以上。開啟極驗驗證後，您無需再使用其他驗證（碼）相關應用，以避免重複驗證對用戶產生困擾！感謝您一直以來對極驗驗證的支持！]]></item>
+
+				
+				
+				<item id="reg_label"><![CDATA[註冊模塊]]></item>
+				<item id="login_label"><![CDATA[登錄模塊]]></item>
+				<item id="newthread_label"><![CDATA[發帖模塊]]></item>
+				<item id="reply_label"><![CDATA[回帖模塊]]></item>
+				<item id="edit_label"><![CDATA[編輯帖模塊]]></item>
+				<item id="follow_label"><![CDATA[廣播模塊]]></item>
+				<item id="blog_label"><![CDATA[日誌模塊]]></item>
+				<item id="comment_label"><![CDATA[留言模塊]]></item>
+				
+				
+				<item id="moduel_captcha_label"><![CDATA[需要開啟驗證的位置]]></item>
+				<item id="moduel_captcha_note"><![CDATA[需要驗證的模塊！]]></item>
+				<item id="group_captcha_label"><![CDATA[需要開啟驗證的用戶組]]></item>
+				<item id="group_captcha_note"><![CDATA[需要驗證的用戶組！]]></item>
+				
+				<item id="usergroups_empty"><![CDATA[空]]></item>
+				<item id="usergroups_member"><![CDATA[會員用戶組]]></item>
+				<item id="usergroups_special"><![CDATA[自定義用戶組]]></item>
+				<item id="usergroups_specialadmin"><![CDATA[自定義管理組]]></item>
+				<item id="usergroups_system"><![CDATA[系統用戶組]]></item>
+
+				<item id="post_num_captcha_label"><![CDATA[根據發帖數關閉驗證:]]></item>
+				<item id="post_num_captcha_note"><![CDATA[發帖數超過此設置的會員將不受驗證碼功能限制，0 表示所有會員均受限制]]></item>
+				
+				
+				
+
+				
+				<item id="captcha_style_setting_label"><![CDATA[極驗驗證佈局位置設置]]></item>
+				<item id="register_style_label"><![CDATA[註冊頁面驗證位置]]></item>
+				<item id="register_float_style_label"><![CDATA[註冊浮動窗驗證位置]]></item>
+				<item id="logging_style_label"><![CDATA[登陸頁面驗證位置]]></item>
+				<item id="logging_float_style_label"><![CDATA[登陸浮動窗驗證位置]]></item>
+				
+				<item id="newthread_style_label"><![CDATA[發帖頁面驗證位置]]></item>
+				<item id="reply_style_label"><![CDATA[回帖頁面驗證位置]]></item>
+				<item id="newthread_reply_float_style_label"><![CDATA[發帖回帖浮動窗驗證位置]]></item>
+				<item id="newthread_reply_grade_style_label"><![CDATA[發帖回帖高級頁面驗證位置]]></item>
+				
+				<item id="follow_style_label"><![CDATA[廣播頁面驗證位置]]></item>
+				<item id="blog_style_label"><![CDATA[日誌頁面驗證位置]]></item>
+				<item id="comment_style_label"><![CDATA[留言/評論頁面驗證位置]]></item>
+				
+				<item id="style_note"><![CDATA[請按照格式正確設置驗證位置，中間用一個空格隔開。如10 10 10 auto]]></item>
+				
+				<item id="captcha_advance_style_label"><![CDATA[驗證位置設置說明]]></item>
+				<item id="captcha_advance_style_note"><![CDATA[
+				1    輸入驗證所在模塊頁面中的位置，分別距離上下左右的邊距。如 1 10 12 30，表示距離上1像素，距離下10像素，距離左12像素，距離右30像素。<p>
+				2    如果要居中顯示，需要設置上下auto，或者左右auto。如  10 10 auto auto，表示左右居中。]]></item>
+				
+				
+				<item id="feeback_title_label"><![CDATA[反饋意見]]></item>
+				<item id="feeback_label"><![CDATA[意見內容]]></item>
+				<item id="feeback_content"><![CDATA[#填寫您的反饋信息內容#]]></item>
+				<item id="feeback_note"><![CDATA[您可以將您的寶貴意見及時反饋與我們，我們會盡力完善極驗驗證，給您提供更便捷的驗證服務！]]></item>
+				<item id="feedback_success"><![CDATA[恭喜您！您的意見反饋成功，謝謝您寶貴的意見！]]></item>
+				
+				
+				<item id="key_error_info"><![CDATA[
+				<div style="margin:50px auto;">
+				  您的公鑰和私鑰無效，請核對正確激活後，可以顯示該頁面。請到<a target="_blank" href="http://my.geetest.com">geetest管理後台</a>查看您的公鑰id和私鑰key信息。
+				</div>
+				]]></item>
+
+
+				<item id="about_more_label"><![CDATA[更多服務]]></item>
+				<item id="about_link_manage"><![CDATA[專屬後台]]></item>
+				<item id="about_link_install"><![CDATA[安裝中心]]></item>
+				<item id="about_link_index"><![CDATA[極驗官網]]></item>
+				<item id="about_link_mobile"><![CDATA[移動設備]]></item>
+
+				<item id="about_link_manage_login"><![CDATA[註冊/登錄]]></item>
+				<item id="about_link_manage_report"><![CDATA[驗證統計]]></item>
+				<item id="about_link_manage_set"><![CDATA[驗證設置]]></item>
+
+				<item id="about_link_install_intro"><![CDATA[安裝說明]]></item>
+				<item id="about_link_install_advance"><![CDATA[常見問題]]></item>
+				<item id="about_link_install_phone"><![CDATA[安裝手機版]]></item>
+				<item id="about_link_install_mobile"><![CDATA[手機版安裝]]></item>
+
+				<item id="about_link_index_home"><![CDATA[官網首頁]]></item>
+				<item id="about_link_index_intro"><![CDATA[產品說明]]></item>
+				<item id="about_link_index_show"><![CDATA[在線體驗]]></item>
+				<item id="about_link_index_mobile"><![CDATA[手機版安裝]]></item>
+
+
+
+				<item id="about_link_contact"><![CDATA[聯繫我們]]></item>
+				<item id="about_link_tech"><![CDATA[技術支持QQ：632618615（Tristan）]]></item>
+				<item id="about_link_product"><![CDATA[產品建議QQ：315815060（Austin）]]></item>
+				<item id="about_link_bug"><![CDATA[BUG提交QQ：877077145（Break）]]></item>
+				<item id="about_link_commerce"><![CDATA[商務合作QQ：41570993（Hank）]]></item>
+				<item id="about_link_email"><![CDATA[郵箱：contact@geetest.com]]></item>
+
+				<item id="geetest_account"><![CDATA[極驗賬號]]></item>
+				<item id="geetest_instruction"><![CDATA[為了更好的使用極驗驗證的擴展服務（圖片中心、數據報表、廣告平台），我們建議您註冊極驗管理平台。我們為您提供一鍵式的註冊服務。]]></item>	
+				<item id="user_email"><![CDATA[用戶郵箱]]></item>
+				<item id="password"><![CDATA[密碼]]></item>
+				<item id="reppassword"><![CDATA[確認密碼]]></item>
+				<item id="invalid_email"><![CDATA[郵箱格式不正確！]]></item>
+				<item id="invalid_different"><![CDATA[兩次密碼輸入不一致！]]></item>
+				<item id="invalid_long"><![CDATA[密碼長度小於6位！]]></item>
+				<item id="email_repeat"><![CDATA[用戶郵箱已存在！]]></item>
+				
+				<item id="show"><![CDATA[顯示高級設置]]></item>
+				<item id="hidden"><![CDATA[隱藏高級設置]]></item>
+				<item id="advanced_settings_more"><![CDATA[高級設置一般為默認]]></item>
+
+				<item id="questionnaire"><![CDATA[調查問卷]]></item>
+				<item id="questionnaire_more"><![CDATA[填問卷，送G幣，點擊進入]]></item>
+
+				<item id="my_data_report"><![CDATA[數據報表]]></item>
+				<item id="my_coins"><![CDATA[我的G幣 :]]></item>
+				<item id="account_detail"><![CDATA[賬戶細明]]></item>
+				<item id="task_coins"><![CDATA[做任務  送G幣]]></item>
+				<item id="welcome"><![CDATA[歡迎您 :]]></item>
+				<item id="invalid_message"><![CDATA[驗證信息]]></item>
+				<item id="keyset_setting_explain"><![CDATA[感謝您的註冊，我們自動生成了屬於您的ID和KEY。如有疑慮，請查看]]></item>
+				<item id="help_center"><![CDATA[使用幫助]]></item>
+				<item id="install_center"><![CDATA[安裝中心]]></item>
+				<item id="and"><![CDATA[和]]></item>
+				<item id="setting_view"><![CDATA[設置驗證圖片]]></item>
+				
+				<item id="account_explain"><![CDATA[一鍵註冊，立即擁有專屬ID和KEY，輕鬆查看驗證報表]]></item>
+				<item id="register_now"><![CDATA[立即註冊]]></item>
+				<item id="landing_directly"><![CDATA[直接登陸]]></item>
+				<item id="register_message"><![CDATA[> 沒有賬號？]]></item>
+				<item id="login_message"><![CDATA[> 已經擁有極驗賬號？]]></item>
+				<item id="user_password_error"><![CDATA[用戶名或密碼錯誤！]]></item>
+
+				<item id="login_succeed"><![CDATA[登陸成功]]></item>
+				<item id="register_succeed"><![CDATA[註冊成功]]></item>
+				<item id="login_fail"><![CDATA[登陸失敗]]></item>
+				<item id="register_fail"><![CDATA[註冊失敗]]></item>
+
+				<item id="relevance_cloud"><![CDATA[關聯到極驗雲]]></item>
+				<item id="geetest_id"><![CDATA[公鑰]]></item>
+				<item id="geetest_key"><![CDATA[私鑰]]></item>
+				<item id="id_note"><![CDATA[極驗驗證是基於SAAS的雲應用，此公鑰為本站驗證對應的唯一標識]]></item>
+				<item id="key_note"><![CDATA[對應其相應公鑰，類似於密碼，請勿洩露]]></item>
+				<item id="button_note"><![CDATA[若您在極驗雲平台已有公鑰私鑰可點「更換公鑰私鑰」按鈕更換]]></item>
+
+				<item id="id_long_error"><![CDATA[id長度不正確！]]></item>
+				<item id="key_long_error"><![CDATA[key長度不正確！]]></item>
+
+				<item id="open_advertisement"><![CDATA[開啟廣告賺取佣金]]></item>
+				<item id="open_cps"><![CDATA[是否啟用極驗cps廣告]]></item>
+                <item id="open_cps_note"><![CDATA[在驗證圖片位顯示CPS廣告，最高佣金比例16%]]></item>
+
+                <item id="open_text"><![CDATA[是否啟用極驗文字鏈廣告]]></item>
+                <item id="open_text_note"><![CDATA[在驗證交互界面顯示文字鏈廣告，12月矚目開啟]]></item>
+                <item id="setting_succeed"><![CDATA[設置成功]]></item>
+
+                <item id="not_relevance"><![CDATA[尚未關聯極意賬號]]></item>
+                <item id="relevance"><![CDATA[已關聯極意賬號]]></item>
+				<item id="commission_withdrawal"><![CDATA[佣金提現]]></item>
+				<item id="acquisition"><![CDATA[已獲得]]></item>
+				<item id="acquisition_note"><![CDATA[暫不支持提現]]></item>
+
+
+				<item id="assist"><![CDATA[相關幫助]]></item>
+				<item id="tutorial_label"><![CDATA[使用教程]]></item>
+				<item id="website"><![CDATA[官方網站]]></item>
+				<item id="contact"><![CDATA[聯繫郵箱]]></item>
+				<item id="QQqun"><![CDATA[討論群]]></item>
+
+				<item id="recommend"><![CDATA[推薦極驗]]></item>
+				<item id="recommend_label"><![CDATA[如果您喜歡極驗，那麼也推薦您的朋友一起體驗極驗全新的驗證安全2.0服務吧！邀請註冊就送G幣並獲得下線收入10%提成。]]></item>
+				<item id="recommend_note"><![CDATA[邀請鏈接：]]></item>
+				<item id="invite"><![CDATA[已經邀請]]></item>
+				<item id="feeback_success"><![CDATA[反饋成功]]></item>
+				<item id="about_geetest"><![CDATA[關於極驗]]></item>
+				<item id="about_geetest_note"><![CDATA[極驗驗證是全球首家新一代行為式驗證技術服務提供商，為給互聯網世界的人們帶去「更安全、更便捷、更具智慧的驗證」為目標而不斷前行。極驗驗證首度提出「行為式驗證」的全新驗證理論，並構建出「行為沙盒」的驗證框架，利用自主研發的「多重行為判別智能算法」，達到了令傳統驗證技術難以到達的高度，至此開創驗證安全2.0新時代。]]></item>
+				<item id="what_geetest"><![CDATA[什麼是行為式驗證安全技術]]></item>
+				<item id="what_geetest_note"><![CDATA[<p>已經困擾我們幾十年的碼式驗證，是理所當然？</p>
+					<p>面對驗證碼被輕而易舉地破解，卻束手無策？</p>
+					<p>安全性和良好的用戶體驗，只能背道而馳？</p>
+					<p>我們對驗證碼的本質進行深入的思考，得到了辨別人和計算機的深層次方法--行為式驗證，不再僅是通過結束，而是得到結果的過程來區分是人還是計算機程序。</p>
+					<p>極驗驗證全球首創的「行為式驗證」安全服務，通過人的行為來區別人和計算機程序。相比碼式驗證，行為式驗證更加安全、用戶體驗更好、兼容性更強、安裝及管理方便。
+					</p>]]>
+  			</item>
+  			<item id="see_more"><![CDATA[查看更多]]></item>
+  			<item id="test"><![CDATA[config.php沒有可寫權限，將啟用默認ID和Key]]></item>
+
+			</item>
+		</item>
+	</item>
+</root>

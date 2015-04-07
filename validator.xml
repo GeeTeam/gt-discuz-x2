@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin Validator]]></item>
+	<item id="Version"><![CDATA[X2]]></item>
+	<item id="Data">
+		<item id="0"><![CDATA[source/plugin/geetest/geetest.class.php]]></item>
+		<item id="1"><![CDATA[source/plugin/geetest/keyset.inc.php]]></item>
+		<item id="2"><![CDATA[source/plugin/geetest/about.inc.php]]></item>
+		<item id="3"><![CDATA[source/plugin/geetest/feedback.inc.php]]></item>
+		
+	</item>
+</root>
