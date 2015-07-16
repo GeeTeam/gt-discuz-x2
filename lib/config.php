@@ -2,13 +2,13 @@
  return array (
   'keyset' => 
   array (
-    'captchaid' => 'a40fd3b0d712165c5d13e6f747e948d4',
-    'privatekey' => '0f1a37e33c9ed10dd2e133fe2ae9c459',
+    'captchaid' => '88cc14f0a3f87f1a822012aafc16ef89',
+    'privatekey' => '2e9a4a9e2abe5464b6e3bd53c5d23fc5',
   ),
   'now' => 
   array (
-    'captchaid' => 'a40fd3b0d712165c5d13e6f747e948d4',
-    'privatekey' => '0f1a37e33c9ed10dd2e133fe2ae9c459',
+    'captchaid' => '88cc14f0a3f87f1a822012aafc16ef89',
+    'privatekey' => '2e9a4a9e2abe5464b6e3bd53c5d23fc5',
   ),
   'gt_basic' => 
   array (
