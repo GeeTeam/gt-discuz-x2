@@ -1,51 +1,38 @@
-<?php
-class plugin_geetest_home extends plugin_geetest {
-    //支付
-    function spacecp_credit_bottom(){
+<?php 
+class plugin_geetest_group  extends plugin_geetest{  
+    
+    function post_middle(){
         global $_G;
-        return $this->return_captcha("tpl_spacecp_credit_bottom","home");
-    }
-    //广播
-    function follow_top() {
-        global $_G;
-        return $this->return_captcha("tpl_follow_top","home");
-    }
-    //日志
-    function spacecp_blog_middle() {
-        global $_G;
-        return $this->return_captcha("tpl_spacecp_blog_middle","home");
-    }
-    //日志评论
-    function space_blog_face_extra() {
-        //return 123;
-        global $_G;
-        return $this->return_captcha("tpl_space_blog_face_extra","home");
-    }
-    //留言板
-    function space_wall_face_extra(){
-        global $_G;
-        return $this->return_captcha("tpl_space_wall_face_extra","home");
-    }
-    //处理广播、日志验证
-    function spacecp_follow_recode(){
-        $this->spacecp_recode();
-    }
-    function spacecp_blog_recode(){
-        $this->spacecp_recode();
-    }
-    function spacecp_comment_recode(){
-        $this->spacecp_recode();
+        return $this->return_captcha("tpl_post_middle","forum");
     }
 
-    function spacecp_recode() {
+    function post_infloat_middle() { 
+        global $_G;
+        return $this->return_captcha("tpl_post_infloat_middle","forum");
+    }
+
+    //页面底部发帖
+    function forumdisplay_fastpost_btn_extra() {
+        global $_G;
+        return $this->return_captcha("tpl_forumdisplay_fastpost_btn_extra","forum");
+    }
+
+    //页面底部回复
+    function viewthread_fastpost_content() {
+        global $_G;
+        return $this->return_captcha("tpl_viewthread_fastpost_content","forum");
+    }
+
+    //处理发帖/恢复/编辑验证
+    function post_recode() {
+        global $_G;
         if( ! $this->has_authority() ){
             return;
         }
-        global $_G;
         $success = 0;
         session_start();
         if($this->captcha_allow) {
-            if(submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck) || submitcheck('blogsubmit', 0, $seccodecheck, $secqaacheck)|| submitcheck('commentsubmit', 0, $seccodecheck, $secqaacheck)) {
+            if(submitcheck('topicsubmit', 0, $seccodecheck, $secqaacheck) || submitcheck('replysubmit', 0, $seccodecheck, $secqaacheck) || submitcheck('editsubmit', 0, $seccodecheck, $secqaacheck) ) {
                 if($_SESSION['gtserver'] ==1){
                     $response = $this->geetest->validate($_GET['geetest_challenge'], $_GET['geetest_validate'], $_GET['geetest_seccode']);
                     if($response != 1){
@@ -58,7 +45,7 @@ class plugin_geetest_home extends plugin_geetest {
                         $success = 1;
                     }
                 }else{
-                    $validate = $_GET['geetest_validate'];
+                    $validate = $_POST['geetest_validate'];
                     if ($validate) {
                         $value = explode("_",$validate);
                         $challenge = $_SESSION['challenge'];
@@ -77,6 +64,7 @@ class plugin_geetest_home extends plugin_geetest {
                 }
             }
         }
+        
         if($success == 1){
             $post_count = $_G['cookie']['pc_size_c'];
             $post_count = intval($post_count);
@@ -90,21 +78,32 @@ class plugin_geetest_home extends plugin_geetest {
 
     //判断是否有权限发帖留言，或者其他
     function has_authority(){
+        //2.5版本不存在快速回复
+        global $_G;
+        include_once(DISCUZ_ROOT.'/source/discuz_version.php');
+        if(DISCUZ_VERSION == "X2.5" && $_GET['handlekey'] == "vfastpost"){
+             return false ;
+        }
         //针对掌上论坛不需要验证
-        if( $_GET['mobile'] == 'no' && $_GET['submodule'] == 'checkpost' ){
+        if( $_GET['mobile'] == 'no' && $_GET['module'] == 'sendreply' ){
             return false;
         }
-        global $_G;
-		
-        $action = $_GET['ac'];
+        if( $_GET['mobile'] == 'no' && $_GET['module'] == 'newthread' ){
+            return false;
+        }
+        //针对广播，回复不好验证。有三处回复
+        if( $_GET['action'] == 'reply' && $_GET['inajax'] == '1' &&  $_GET['handlekey'] != 'reply' &&  $_GET['infloat'] != 'yes'){
+            return false;
+        }
+        $action = $_GET['action'];
         //快速回复是否开启,并且有发帖权限,日志
-        if($action == 'follow' && $_G['group']['allowpost'] != 1 ){//发帖
+        if($action == 'newthread' && $_G['group']['allowpost'] != 1 ){//发帖
             return false;
-        }else if($action == 'blog' && $_G['group']['allowblog'] != 1 ){//回复
-            return false;
-        }else if($action == 'comment' && $_G['group']['allowcomment'] != 1 ){//回复
+        }else if($action == 'reply' && $_G['group']['allowreply'] != 1 ){//回复
             return false;
         }
         return true;
     }
 }
+
+ ?>

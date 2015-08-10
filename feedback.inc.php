@@ -6,7 +6,6 @@ if(!defined('IN_DISCUZ') || !defined('IN_ADMINCP')) {
 	exit('Access Denied');
 }
 include_once DISCUZ_ROOT."/source/plugin/geetest/lib/geetestlib.php";
-
 $config = @include DISCUZ_ROOT.'source/plugin/geetest/lib/config.php';
 
 	$geetestlib = new geetestlib();
@@ -80,7 +79,7 @@ $warn = <<<HTML
 HTML;
 
 echo($warn);
-//ÐÞ¸ÄÌá½»
+
 
 
 

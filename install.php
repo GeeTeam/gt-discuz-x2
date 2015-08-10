@@ -1,9 +1,4 @@
 <?php
-/**
- *      2012-2099 Geetest Inc.
- *
- *      $Id: install.php  2014-08-12 Break
- */
 
 if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
